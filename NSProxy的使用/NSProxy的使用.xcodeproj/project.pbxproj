@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E5992B222D010E00324BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5992A222D010E00324BF3 /* AppDelegate.m */; };
+		A7E5992E222D010F00324BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5992D222D010F00324BF3 /* ViewController.m */; };
+		A7E59931222D010F00324BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E5992F222D010F00324BF3 /* Main.storyboard */; };
+		A7E59933222D011200324BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E59932222D011200324BF3 /* Assets.xcassets */; };
+		A7E59936222D011200324BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E59934222D011200324BF3 /* LaunchScreen.storyboard */; };
+		A7E59939222D011200324BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E59938222D011200324BF3 /* main.m */; };
+		A7E59943222D011300324BF3 /* NSProxy___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E59942222D011300324BF3 /* NSProxy___Tests.m */; };
+		A7E5994E222D011300324BF3 /* NSProxy___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5994D222D011300324BF3 /* NSProxy___UITests.m */; };
+		A7E5995D222D2C4400324BF3 /* FFTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5995C222D2C4400324BF3 /* FFTeacher.m */; };
+		A7E59960222D2C7D00324BF3 /* FFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5995F222D2C7D00324BF3 /* FFStudent.m */; };
+		A7E59963222D2D3800324BF3 /* FFProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E59962222D2D3800324BF3 /* FFProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7E5993F222D011300324BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E5991E222D010E00324BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E59925222D010E00324BF3;
+			remoteInfo = "NSProxy的使用";
+		};
+		A7E5994A222D011300324BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E5991E222D010E00324BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E59925222D010E00324BF3;
+			remoteInfo = "NSProxy的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7E59926222D010E00324BF3 /* NSProxy的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSProxy的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E59929222D010E00324BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7E5992A222D010E00324BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7E5992C222D010F00324BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7E5992D222D010F00324BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7E59930222D010F00324BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7E59932222D011200324BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7E59935222D011200324BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7E59937222D011200324BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E59938222D011200324BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7E5993E222D011300324BF3 /* NSProxy的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProxy的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E59942222D011300324BF3 /* NSProxy___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSProxy___Tests.m"; sourceTree = "<group>"; };
+		A7E59944222D011300324BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E59949222D011300324BF3 /* NSProxy的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProxy的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E5994D222D011300324BF3 /* NSProxy___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSProxy___UITests.m"; sourceTree = "<group>"; };
+		A7E5994F222D011300324BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E5995B222D2C4400324BF3 /* FFTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTeacher.h; sourceTree = "<group>"; };
+		A7E5995C222D2C4400324BF3 /* FFTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTeacher.m; sourceTree = "<group>"; };
+		A7E5995E222D2C7D00324BF3 /* FFStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFStudent.h; sourceTree = "<group>"; };
+		A7E5995F222D2C7D00324BF3 /* FFStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFStudent.m; sourceTree = "<group>"; };
+		A7E59961222D2D3800324BF3 /* FFProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFProxy.h; sourceTree = "<group>"; };
+		A7E59962222D2D3800324BF3 /* FFProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E59923222D010E00324BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E5993B222D011300324BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E59946222D011300324BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7E5991D222D010E00324BF3 = {
+			isa = PBXGroup;
+			children = (
+				A7E59928222D010E00324BF3 /* NSProxy的使用 */,
+				A7E59941222D011300324BF3 /* NSProxy的使用Tests */,
+				A7E5994C222D011300324BF3 /* NSProxy的使用UITests */,
+				A7E59927222D010E00324BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E59927222D010E00324BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E59926222D010E00324BF3 /* NSProxy的使用.app */,
+				A7E5993E222D011300324BF3 /* NSProxy的使用Tests.xctest */,
+				A7E59949222D011300324BF3 /* NSProxy的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E59928222D010E00324BF3 /* NSProxy的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7E59929222D010E00324BF3 /* AppDelegate.h */,
+				A7E5992A222D010E00324BF3 /* AppDelegate.m */,
+				A7E5992C222D010F00324BF3 /* ViewController.h */,
+				A7E5992D222D010F00324BF3 /* ViewController.m */,
+				A7E5995B222D2C4400324BF3 /* FFTeacher.h */,
+				A7E5995C222D2C4400324BF3 /* FFTeacher.m */,
+				A7E5995E222D2C7D00324BF3 /* FFStudent.h */,
+				A7E5995F222D2C7D00324BF3 /* FFStudent.m */,
+				A7E59961222D2D3800324BF3 /* FFProxy.h */,
+				A7E59962222D2D3800324BF3 /* FFProxy.m */,
+				A7E5992F222D010F00324BF3 /* Main.storyboard */,
+				A7E59932222D011200324BF3 /* Assets.xcassets */,
+				A7E59934222D011200324BF3 /* LaunchScreen.storyboard */,
+				A7E59937222D011200324BF3 /* Info.plist */,
+				A7E59938222D011200324BF3 /* main.m */,
+			);
+			path = "NSProxy的使用";
+			sourceTree = "<group>";
+		};
+		A7E59941222D011300324BF3 /* NSProxy的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E59942222D011300324BF3 /* NSProxy___Tests.m */,
+				A7E59944222D011300324BF3 /* Info.plist */,
+			);
+			path = "NSProxy的使用Tests";
+			sourceTree = "<group>";
+		};
+		A7E5994C222D011300324BF3 /* NSProxy的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E5994D222D011300324BF3 /* NSProxy___UITests.m */,
+				A7E5994F222D011300324BF3 /* Info.plist */,
+			);
+			path = "NSProxy的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E59925222D010E00324BF3 /* NSProxy的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E59952222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用" */;
+			buildPhases = (
+				A7E59922222D010E00324BF3 /* Sources */,
+				A7E59923222D010E00324BF3 /* Frameworks */,
+				A7E59924222D010E00324BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSProxy的使用";
+			productName = "NSProxy的使用";
+			productReference = A7E59926222D010E00324BF3 /* NSProxy的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7E5993D222D011300324BF3 /* NSProxy的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E59955222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用Tests" */;
+			buildPhases = (
+				A7E5993A222D011300324BF3 /* Sources */,
+				A7E5993B222D011300324BF3 /* Frameworks */,
+				A7E5993C222D011300324BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E59940222D011300324BF3 /* PBXTargetDependency */,
+			);
+			name = "NSProxy的使用Tests";
+			productName = "NSProxy的使用Tests";
+			productReference = A7E5993E222D011300324BF3 /* NSProxy的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7E59948222D011300324BF3 /* NSProxy的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E59958222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用UITests" */;
+			buildPhases = (
+				A7E59945222D011300324BF3 /* Sources */,
+				A7E59946222D011300324BF3 /* Frameworks */,
+				A7E59947222D011300324BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E5994B222D011300324BF3 /* PBXTargetDependency */,
+			);
+			name = "NSProxy的使用UITests";
+			productName = "NSProxy的使用UITests";
+			productReference = A7E59949222D011300324BF3 /* NSProxy的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E5991E222D010E00324BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MoGuJie;
+				TargetAttributes = {
+					A7E59925222D010E00324BF3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A7E5993D222D011300324BF3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A7E59925222D010E00324BF3;
+					};
+					A7E59948222D011300324BF3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A7E59925222D010E00324BF3;
+					};
+				};
+			};
+			buildConfigurationList = A7E59921222D010E00324BF3 /* Build configuration list for PBXProject "NSProxy的使用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7E5991D222D010E00324BF3;
+			productRefGroup = A7E59927222D010E00324BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E59925222D010E00324BF3 /* NSProxy的使用 */,
+				A7E5993D222D011300324BF3 /* NSProxy的使用Tests */,
+				A7E59948222D011300324BF3 /* NSProxy的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E59924222D010E00324BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E59936222D011200324BF3 /* LaunchScreen.storyboard in Resources */,
+				A7E59933222D011200324BF3 /* Assets.xcassets in Resources */,
+				A7E59931222D010F00324BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E5993C222D011300324BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E59947222D011300324BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E59922222D010E00324BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E5992E222D010F00324BF3 /* ViewController.m in Sources */,
+				A7E59939222D011200324BF3 /* main.m in Sources */,
+				A7E59963222D2D3800324BF3 /* FFProxy.m in Sources */,
+				A7E5995D222D2C4400324BF3 /* FFTeacher.m in Sources */,
+				A7E59960222D2C7D00324BF3 /* FFStudent.m in Sources */,
+				A7E5992B222D010E00324BF3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E5993A222D011300324BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E59943222D011300324BF3 /* NSProxy___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E59945222D011300324BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E5994E222D011300324BF3 /* NSProxy___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7E59940222D011300324BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E59925222D010E00324BF3 /* NSProxy的使用 */;
+			targetProxy = A7E5993F222D011300324BF3 /* PBXContainerItemProxy */;
+		};
+		A7E5994B222D011300324BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E59925222D010E00324BF3 /* NSProxy的使用 */;
+			targetProxy = A7E5994A222D011300324BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7E5992F222D010F00324BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E59930222D010F00324BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7E59934222D011200324BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E59935222D011200324BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7E59950222D011300324BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7E59951222D011300324BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E59953222D011300324BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7E59954222D011300324BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7E59956222D011300324BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy的使用.app/NSProxy的使用";
+			};
+			name = Debug;
+		};
+		A7E59957222D011300324BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy的使用.app/NSProxy的使用";
+			};
+			name = Release;
+		};
+		A7E59959222D011300324BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSProxy的使用";
+			};
+			name = Debug;
+		};
+		A7E5995A222D011300324BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSProxy的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLPF.NSProxy---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSProxy的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E59921222D010E00324BF3 /* Build configuration list for PBXProject "NSProxy的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E59950222D011300324BF3 /* Debug */,
+				A7E59951222D011300324BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E59952222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E59953222D011300324BF3 /* Debug */,
+				A7E59954222D011300324BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E59955222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E59956222D011300324BF3 /* Debug */,
+				A7E59957222D011300324BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E59958222D011300324BF3 /* Build configuration list for PBXNativeTarget "NSProxy的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E59959222D011300324BF3 /* Debug */,
+				A7E5995A222D011300324BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7E5991E222D010E00324BF3 /* Project object */;
+}
